@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		747320022421C4310013336F /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747320012421C4310013336F /* CameraVC.swift */; };
 		74E3CE5F23B19E5D001A427E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3CE5E23B19E5D001A427E /* AppDelegate.swift */; };
 		74E3CE6123B19E5D001A427E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3CE6023B19E5D001A427E /* SceneDelegate.swift */; };
-		74E3CE6323B19E5D001A427E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3CE6223B19E5D001A427E /* ContentView.swift */; };
 		74E3CE6523B19E5F001A427E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E3CE6423B19E5F001A427E /* Assets.xcassets */; };
 		74E3CE6823B19E5F001A427E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E3CE6723B19E5F001A427E /* Preview Assets.xcassets */; };
 		74E3CE6B23B19E5F001A427E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E3CE6923B19E5F001A427E /* LaunchScreen.storyboard */; };
+		74F89CC223F5C9BF003FD171 /* pickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F89CC123F5C9BF003FD171 /* pickerVC.swift */; };
+		74F89CC423F5C9CD003FD171 /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F89CC323F5C9CD003FD171 /* mapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		747320012421C4310013336F /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		74E3CE5B23B19E5D001A427E /* appThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E3CE5E23B19E5D001A427E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E3CE6023B19E5D001A427E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74E3CE6223B19E5D001A427E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74E3CE6423B19E5F001A427E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E3CE6723B19E5F001A427E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74E3CE6A23B19E5F001A427E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E3CE6C23B19E5F001A427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F89CC123F5C9BF003FD171 /* pickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerVC.swift; sourceTree = "<group>"; };
+		74F89CC323F5C9CD003FD171 /* mapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				74E3CE5E23B19E5D001A427E /* AppDelegate.swift */,
+				747320012421C4310013336F /* CameraVC.swift */,
 				74E3CE6023B19E5D001A427E /* SceneDelegate.swift */,
-				74E3CE6223B19E5D001A427E /* ContentView.swift */,
+				74F89CC323F5C9CD003FD171 /* mapVC.swift */,
+				74F89CC123F5C9BF003FD171 /* pickerVC.swift */,
 				74E3CE6423B19E5F001A427E /* Assets.xcassets */,
 				74E3CE6923B19E5F001A427E /* LaunchScreen.storyboard */,
 				74E3CE6C23B19E5F001A427E /* Info.plist */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E3CE5F23B19E5D001A427E /* AppDelegate.swift in Sources */,
+				74F89CC423F5C9CD003FD171 /* mapVC.swift in Sources */,
+				747320022421C4310013336F /* CameraVC.swift in Sources */,
 				74E3CE6123B19E5D001A427E /* SceneDelegate.swift in Sources */,
-				74E3CE6323B19E5D001A427E /* ContentView.swift in Sources */,
+				74F89CC223F5C9BF003FD171 /* pickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appsByMitch.appThree;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsByMitch.mapKitCamerasAndOthersPrac1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +321,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appsByMitch.appThree;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsByMitch.mapKitCamerasAndOthersPrac1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -20,6 +20,16 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to do this. Please grant me access.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>lemme get yo location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>GIMME UR LOCATION NOW!!!</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Cmon buddy. Give me your microphone privileges</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We want to look at all your photos</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
